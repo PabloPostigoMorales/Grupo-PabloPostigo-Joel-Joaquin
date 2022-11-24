@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&display=swap');
+body {
+  font-family: Arial;
+  background:repeating-linear-gradient(
+             70deg,
+             rgb(1,75,160),
+             #a0019a);
+              background-size:100% 100%
+}
+h1.title {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 0px 15px white;
+}
+h2{
+  padding-top:15px;
+}
+th,
+td {
+  border: solid 1px black;
+  padding: 8px;
+}
+.centerImage {
+  width: 500px;
+  padding-left: 36%;
+  padding-bottom: 100px;
+}
+.descrip {
+  font-size: 18px;
+}
+
+label {
+  align-self: left;
+  margin-right: 60%;
+ 
+}
+#PForm {
+  margin:0 auto;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  border-radius: 15px;
+  align-items:center;
+  margin-top:100px;
+  align-items: center;
+  width: 500px;
+}
+input {
+  width: 410px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+input:hover {
+  border: solid red;
+}
+.buttom {
+  width: 425px;
+  height: 50px;
+  margin-top: 5%;
+  background-color: blue;
+  color: white;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+#padding {
+  padding-left: 2%;
+}
+.box {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+.linked{
+  text-decoration:none;
+  color:white;
+}
+.linked:hover{
+  color:blue;
+  background-color:royalblue;
+  border-radius: 15px;
+  padding:2px;
+}
+.linked:active{
+  cursor: wait;
+}
+.dtclase{
+  color: yellow;
+  margin-top: 10px
+}
+
+tr th:hover, tr td:hover{
+  color:red;
+  background-color:black;
+}
