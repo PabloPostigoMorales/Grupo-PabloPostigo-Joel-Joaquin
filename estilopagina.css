@@ -8,6 +8,9 @@ body {
              #a0019a);
               background-size:100% 100%
 }
+a{
+color: white;
+}
 h1.title {
   text-align: center;
   text-decoration: underline;
